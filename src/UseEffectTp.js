@@ -30,8 +30,8 @@ function Api() {
           <li key={todo.id}>{todo.title}</li>
         ))}
       </ul>
-      <button className='p-2 m-2 btn btn-danger' onClick={previous}>Précédent</button>
-      <button className='p-2 m-2 btn btn-success' onClick={next}>Suivant</button>
+      <button className='p-2 m-2 btn btn-danger' onClick={previous}>Previous</button>
+      <button className='p-2 m-2 btn btn-success' onClick={next}>Next</button>
     </div>
   );
 }
